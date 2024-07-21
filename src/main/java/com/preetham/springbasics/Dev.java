@@ -4,8 +4,8 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class Dev {
-    public String code(){
-        return "This is the new Spring Boot Project";
+    public void code(){
+        System.out.println("THis is a new project to learn Spring boot");
     }
 
 }
